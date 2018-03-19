@@ -33,6 +33,5 @@ augroup filetype
     autocmd! BufRead,BufNewFile BUILD set filetype=blade
 	au! BufRead,BufNewFile *.proto setfiletype proto
 	au! BufRead,BufNewFile *.go setfiletype go
-	au! BufRead,BufNewFile *.asm,*.c,*.cpp,*.java,*.cs,*.sh,*.lua,*.pl,*.pm,*.py,*.rb,*.hs,*.vim 
-	match OverLength /\%81v.\+/
+	au! BufRead,BufNewFile *.asm,*.c,*.cpp,*.java,*.cs,*.sh,*.lua,*.pl,*.pm,*.py,*.rb,*.js,*.go,*.vim,*.proto match OverLength /\%81v.\+/
 augroup end
