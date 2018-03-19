@@ -21,6 +21,11 @@ set cuc " cursorcolumn
 
 set guifont=Monaco:h13
 
+
+" for those row has tail space,mark red to warning
+highlight tailSpace ctermbg=red guibg=red
+match tailSpace /\v\s+$/
+
 " for airline
 set laststatus=2
 
